@@ -39,8 +39,8 @@ To change configuration options simply edit the ion_auth array as needed in /ion
 
 ### Info about the configuration variables
 
-- `$config['tables']['groups']`
-  - The table name to use for the groups table. DEFAULT is 'groups'.
+`$config['tables']['groups']`
+  The table name to use for the groups table. DEFAULT is 'groups'.
   
 - `$config['tables']['users']` - The table name to use for the users table. DEFAULT is 'users'.
 - `$config['tables']['users_groups']` - The table name to use for the users groups table. Default is 'users_groups'.
