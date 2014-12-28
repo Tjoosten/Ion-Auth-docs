@@ -6,9 +6,9 @@ That is released under the [Apache License 2.0](http://www.apache.org/licenses/L
 
 ### Installation
 
-1) [Download the latset version](https://www.github.com/benedmunds/CodeIgniter-Ion-Auth/zippball/2)
-2) Copy the files form this package to the correspoding folder in your application folder. Fro example, copy Ion_auth/config/ion_auth.php to system/application/config/ion_auth.php
-3) Run the appropriate SQL file form the :sql directory.
+1. [Download the latset version](https://www.github.com/benedmunds/CodeIgniter-Ion-Auth/zippball/2)
+2. Copy the files form this package to the correspoding folder in your application folder. Fro example, copy Ion_auth/config/ion_auth.php to system/application/config/ion_auth.php
+3. Run the appropriate SQL file form the :sql directory.
 
 ### Default login
 
@@ -74,6 +74,6 @@ $config['error_end_delimeter']
 
 To change configuration options simply edit the ion_auth array as needed in /ion_auth.php.
 
-`tables['groups']` - The table name to use for the groups table. DEFAULT is 'groups'.
-`tables['users']` - The table name to use for the users table. DEFAULT is 'users'.
-`tables['users_groups']` - The table name to use for the users groups table. Default is 'users_groups'.
+- `tables['groups']` - The table name to use for the groups table. DEFAULT is 'groups'.
+- `tables['users']` - The table name to use for the users table. DEFAULT is 'users'.
+- `tables['users_groups']` - The table name to use for the users groups table. Default is 'users_groups'.
