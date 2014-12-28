@@ -32,9 +32,13 @@ $this->load->library(array('ion_auth');
 $autoload['libraries'] = array('ion_auth');
 ```
 
-### Configuration options
+## Configuration options
 
 Ion Auth is extremely configurable. The following configuration options are available:
+To change configuration options simply edit the ion_auth array as needed in /ion_auth.php.
+
+### $config['tables']['groups']
+tables['groups']` - The table name to use for the groups table. DEFAULT is 'groups'.
 
 ```php
 $config['tables']['groups']
