@@ -43,7 +43,7 @@ To change configuration options simply edit the ion_auth array as needed in /ion
 - `$config['tables']['users']` - The table name to use for the users table. DEFAULT is 'users'.
 - `$config['tables']['users_groups']` - The table name to use for the users groups table. Default is 'users_groups'.
 - `$config['tables']['login_attemps']` - The table name to use for login attemps table. DEFAULT is 'login_attempts'.
-- 
+
 - `$config['site_title']` - The title of your site, used for email.
 - `$config['admin_email']` - Your administrator email address. DEFAULT os 'admin@example.com'.
 - `$config['default_group']` - Name of the default user group. DEFAULT is 'members'.
