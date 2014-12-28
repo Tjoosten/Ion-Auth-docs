@@ -40,14 +40,25 @@ To change configuration options simply edit the ion_auth array as needed in /ion
 ### Info about the configuration variables
 
 - `$config['tables']['groups']` - The table name to use for the groups table. DEFAULT is 'groups'.
+
 - `$config['tables']['users']` - The table name to use for the users table. DEFAULT is 'users'.
+
 - `$config['tables']['users_groups']` - The table name to use for the users groups table. Default is 'users_groups'.
+
 - `$config['tables']['login_attemps']` - The table name to use for login attemps table. DEFAULT is 'login_attempts'.
+
 - `$config['site_title']` - The title of your site, used for email.
+
 - `$config['admin_email']` - Your administrator email address. DEFAULT os 'admin@example.com'.
+
 - `$config['default_group']` - Name of the default user group. DEFAULT is 'members'.
+
 - `$config['admin_group']` - Name of the admin group. DEFAULT is 'admin'.
+
 - `$config['join']['users']` = Users table colunm you want to join WITH. DEFAULT is 'user_id'.
+
 - `$config['join']['groups']` = Group table column you want to join WITH. DEFAULT is 'group_id'.
+
 - `$config['identity']` = Column to use for uniquely identifing user/logging in/etc. Usual choices are 'email' OR 'username'. You should add an index in the users table for whatever you set this option to. DEFAULT is 'email'.
+
 - `$config['min_password_length']` = Minimum length of passwords. DEFAULT is '8'.
