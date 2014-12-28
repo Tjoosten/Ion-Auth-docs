@@ -32,53 +32,13 @@ $this->load->library(array('ion_auth');
 $autoload['libraries'] = array('ion_auth');
 ```
 
-## Configuration options
+### Configuration options
 
 Ion Auth is extremely configurable. The following configuration options are available:
 To change configuration options simply edit the ion_auth array as needed in /ion_auth.php.
 
-#### $config['tables']['groups']
-tables['groups']` - The table name to use for the groups table. DEFAULT is 'groups'.
 
-```php
-$config['tables']['groups']
-$config['tables']['users']
-$config['tables']['users_groups']
-$config['tables']['login_attemps']
-$config['site_title']
-$config['admin_email']
-$config['default_group']
-$config['admin_group']
-$config['join']['users']
-$config['join']['groups']
-$config['identity']
-$config['min_password_length']
-$config['max_password_length']
-$config['email_activation']
-$config['remember_users']
-$config['user_expire']
-$config['user_extend_on_login']
-$config['email_type']
-$config['email_templates']
-$config['email_activate']
-$config['email_forgot_password']
-$config['email_forgot_password_complete'] 
-$config['salt_length']
-$config['store_salt']
-$config['forgot_password_expiration']
-$config['track_login_attempts']
-$config['maximum_login_attempts']
-$config['message_start_delimiter']
-$config['message_end_delimeter']
-$config['error_start_delimiter']
-$config['error_end_delimeter']
-```
-
-### Using the config file
-
-To change configuration options simply edit the ion_auth array as needed in /ion_auth.php.
-
-- `tables['groups']` - The table name to use for the groups table. DEFAULT is 'groups'.
+- `$config['tables']['groups']` - The table name to use for the groups table. DEFAULT is 'groups'.
 - `tables['users']` - The table name to use for the users table. DEFAULT is 'users'.
 - `tables['users_groups']` - The table name to use for the users groups table. Default is 'users_groups'.
 - `tables['login_attemps']` - The table name to use for login attemps table. DEFAULT is 'login_attempts'.
