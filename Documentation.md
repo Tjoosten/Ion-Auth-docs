@@ -2,15 +2,30 @@
 // The table name to use for the groups table. DEFAULT is 'groups'
 $config['tables']['groups']
 
-//
+// The table name to use for the users table. DEFAULT is 'users'.
 $config['tables']['users']
+
+// The table name to use for the users groups table. Default is 'users_groups'.
 $config['tables']['users_groups']
+
+// The table name to use for login attemps table. DEFAULT is 'login_attempts'.
 $config['tables']['login_attemps']
+
+// The title of your site, used for email.
 $config['site_title']
+
+// Your administrator email address. DEFAULT os 'admin@example.com'.
 $config['admin_email']
+
+// Name of the default user group. DEFAULT is 'members'.
 $config['default_group']
+
+// Name of the admin group. DEFAULT is 'admin'.
 $config['admin_group']
+
+//  Users table colunm you want to join WITH. DEFAULT is 'user_id'.
 $config['join']['users']
+
 $config['join']['groups']
 $config['identity']
 $config['min_password_length']
