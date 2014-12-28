@@ -58,7 +58,7 @@ $config['email_type']
 $config['email_templates']
 $config['email_activate']
 $config['email_forgot_password']
-$config['email_forgot_password_complete'] // Filname of the forgot password complete email view template. DEFAULT is 
+$config['email_forgot_password_complete'] 
 $config['salt_length']
 $config['store_salt']
 $config['forgot_password_expiration']
