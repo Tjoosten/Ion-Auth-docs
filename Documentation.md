@@ -17,8 +17,8 @@ That is released under the [Apache License 2.0](http://www.apache.org/licenses/L
 
 ### Upgrading
 
-1) [Download the latest version](https://github.com/benedmunds/Codeigniter-Ion-Auth/zipball/2)
-2) Overwrite "libraries/ion_auth.php" and "models/ion_auth_model.php" with the new versions.
+1. [Download the latest version](https://github.com/benedmunds/Codeigniter-Ion-Auth/zipball/2)
+2. Overwrite "libraries/ion_auth.php" and "models/ion_auth_model.php" with the new versions.
 
 ### Loading Ion Auth
 
