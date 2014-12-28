@@ -75,3 +75,5 @@ $config['error_end_delimeter']
 To change configuration options simply edit the ion_auth array as needed in /ion_auth.php.
 
 `tables['groups']` - The table name to use for the groups table. DEFAULT is 'groups'.
+`tables['users']` - The table name to use for the users table. DEFAULT is 'users'.
+`tables['users_groups']` - The table name to use for the users groups table. Default is 'users_groups'.
